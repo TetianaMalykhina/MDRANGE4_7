@@ -1,0 +1,60 @@
+1) Download from gitlab  
+2) Unpack
+    now you have:
+        /mdrange/bin        (pre-compiled executables)
+        /mdrange/data       (data files needed for zbl96 and mdsetup)
+        /mdrange/examples   (examples)
+        /mdrange/documentation
+        /mdrange/mdh        (source files)
+
+        ...
+3) /mdrange readme.install   tell us about the installation process,
+
+    You have to edit 'config'-file, i.e.,   $HOME/MDRANGE4/config
+    (if you unpacked *.zip archive into $HOME directory)
+
+    nano $HOME/MDRANGE4.config
+
+   You should use the following:
+   #
+   COMPILER=cc
+   FLADG = -DLinux -fPIE
+   # (for dynamicaly linked library)
+   # it has been done  by default  in MDRANGE4
+
+
+4)      cd $HOME/MDRANGE4
+        chmod +x writeheader
+
+5)      make clean
+
+6)      make
+
+wait, and
+ check $HOME/MDRANGE4/bin  directory 
+ It contains new files:
+        zbl96
+        mdsetup
+        mdhreed
+        mdh
+
+//---------------------  
+How to start:
+
+7)   Please use the 'ulimit' Linux shell command that can set (or report) the resource limit of the current user:
+ 
+      ulimit -s 65535   
+
+8) create a working directory, for example, myCalculations
+    mkdir $HOME/myCalculations
+    
+9)   cd $HOME/myCalculations
+     $HOME/MDRANGE4/bin/mdsetup
+
+10)  cd $HOME/myCalculations
+     $HOME/MDRANGE4/bin/mdh -BS -FD -o out
+     
+
+11)  If you need instructions please use :
+
+           mdh  -h   

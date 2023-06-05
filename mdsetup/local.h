@@ -1,0 +1,5 @@
+#define BINDIR "/u/91/malykht1/unix/NuMElab/MDRANGE4_7/bin/"
+#define DATADIR "/u/91/malykht1/unix/NuMElab/MDRANGE4_7/data/"
+#define F_ELEMENTS "/u/91/malykht1/unix/NuMElab/MDRANGE4_7/data/mass93.str"
+#define F_SCOEFA "/u/91/malykht1/unix/NuMElab/MDRANGE4_7/data/scoef.95a"
+#define F_SCOEFB "/u/91/malykht1/unix/NuMElab/MDRANGE4_7/data/scoef.95b"
