@@ -718,7 +718,7 @@ logical issput;
 
 
     //+++++ Tetiana
-    // sometimes I don't need a whole trajectory for each BS ion bacause  trajectories requires extra space. Also, the program runs quicklier without storing whole trajectories
+    // sometimes I don't need a whole trajectory for each BS ion because  trajectories requires extra space. Also, the program runs quicklier without storing whole trajectories
     if (file->printBS_fullTrajectories)   // save into *.txt file a whole trajectory of each backscattered ion    (01Feb2023)
     {
       if ( recoil->sz <= reccalc->Startmin.z )  // BackScattered ion

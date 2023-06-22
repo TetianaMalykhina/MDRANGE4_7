@@ -1,4 +1,6 @@
-1) Download from gitlab  
+1) Download from gitlab    (github)
+
+
 2) Unpack
     now you have:
         /mdrange/bin        (pre-compiled executables)
@@ -8,6 +10,8 @@
         /mdrange/mdh        (source files)
 
         ...
+        
+        
 3) /mdrange readme.install   tell us about the installation process,
 
     You have to edit 'config'-file, i.e.,   $HOME/MDRANGE4/config
@@ -26,7 +30,9 @@
 4)      cd $HOME/MDRANGE4
         chmod +x writeheader
 
+
 5)      make clean
+
 
 6)      make
 
@@ -38,21 +44,31 @@ wait, and
         mdhreed
         mdh
 
+
+NOTE :
+This version, MDRANGE4_7,  is implemented for the Triton HPC cluster to run in a "pseudo-parallel" mode using some bash scripts.
+
+
 //---------------------  
-How to start:
+How to start  (on a local computer)  :
 
 7)   Please use the 'ulimit' Linux shell command that can set (or report) the resource limit of the current user:
  
-      ulimit -s 65535   
+      ulimit -s 100000   
+
 
 8) create a working directory, for example, myCalculations
     mkdir $HOME/myCalculations
     
+    
 9)   cd $HOME/myCalculations
      $HOME/MDRANGE4/bin/mdsetup
 
+
 10)  cd $HOME/myCalculations
-     $HOME/MDRANGE4/bin/mdh -BS -FD -o out
+     $HOME/MDRANGE4/bin/mdh -BS -FD -fullTrajectories -o out
+     
+     (you can use any options available  for  the mdh program)
      
 
 11)  If you need instructions please use :
