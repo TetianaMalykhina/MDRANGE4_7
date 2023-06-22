@@ -747,7 +747,7 @@ logical issput;
               break;
              }
 
-             fprintf(myBS_ionTrack, "%.2f %.2f %.2f\n", recresult->bsArray[j].x, recresult->bsArray[j].y, recresult->bsArray[j].z );
+             fprintf(myBS_ionTrack, "%.3f %.3f %.3f\n", recresult->bsArray[j].x, recresult->bsArray[j].y, recresult->bsArray[j].z );
 
              if (  (recresult->bsArray[j].z)  > MaxZValue ) MaxZValue = (recresult->bsArray[j].z); //  the maximum depth of each BS
            }

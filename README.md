@@ -23,13 +23,14 @@
   Last major update: Jarkko Peltola and Kai Nordlund, August 2003. Minor update (-recspec option) Kai Nordlund, July 28, 2003.
 
 
-  Some minor modifications (2022-2023) :  Tetiana Malykhina,  September, 2022 - May 2023  (options:  -BS   -fullTrajectories  and some other options )
-                 Tetiana Malykhina,  November 2022,    ( FDnuc, FDelec )
-                 Tetiana Malykhina,  December 2022,    (  -fullTrajectories  option  was added to track BS trajectories )
-                 Tetiana Malykhina,  December 2022 - January 2023,     "the embarrassed parallelism"  was added to use on the Triton HPC cluster 
-                 Tetiana Malykhina,  April 2023,       some minor corrections 
-       
-       
+//--------------------------------------
+  Some minor modifications (2022-2023) : 
+  
+   Tetiana Malykhina,  
+   
+   September, 2022 - May 2023  (options:  -BS   -fullTrajectories  and some other options )
+        
+         tetiana.malykhina@aalto.fi                
                     
 
    	     MDRANGE4_7
