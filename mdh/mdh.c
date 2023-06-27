@@ -209,6 +209,7 @@ char *argv[];
     // Tetiana
     // initialization
     unsigned long int ii=0;
+
     if (file.printBS )
        {
             for (ii=0; ii< MAX_BSTRACK_SIZE; ii++)
