@@ -1,3 +1,4 @@
+Updated (22.02.2024) :   please, read HowToInstall
 
    VERSIONS
 
@@ -126,16 +127,16 @@ Documentation concerning zbl is in the directory zbl96 .
 	- Explains how the nuclear stopping power can be evaluated
 	  from MDRANGE
 
-[27] J. Sillanp‰‰, K. Nordlund, and J. Keinonen, Channeling in
+[27] J. Sillanp√§√§, K. Nordlund, and J. Keinonen, Channeling in
      manufacturing sharp junctions: a molecular dynamics simulation study,
      Physica Scripta T79, 272 (1999).
 	- Our first implementation of a rare-event algorithm
 
-[39] J. Sillanp‰‰, K. Nordlund, and J. Keinonen, Electronic stopping of
+[39] J. Sillanp√§√§, K. Nordlund, and J. Keinonen, Electronic stopping of
      Silicon from a 3D Charge Distribution, Phys. Rev. B 62, 3109 (2000).
 	- introduces the use of 3D charge distributions
 
-[58] J. Sillanp‰‰, J. Peltola, K. Nordlund, J. Keinonen, and M. J. Puska, 
+[58] J. Sillanp√§√§, J. Peltola, K. Nordlund, J. Keinonen, and M. J. Puska, 
      Electronic stopping calculated using explicit phase shift factors, Phys.
      Rev. B 63, 134113 (2000).
 	- introduces the "Puska" or PENR pair-specific stopping model
